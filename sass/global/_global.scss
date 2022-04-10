@@ -123,9 +123,10 @@ font-family: 'Rajdhani', sans-serif;
     --ltn__primary-color-2: #141414; /* Darken */
     --ltn__primary-color-3: #133236; /* Lighten */
     --ltn__secondary-color: #FF5E15;
-    --ltn__secondary-color-2: #cb3421; /* Darken */
+    --ltn__secondary-color-2: #cb3421;
+    // --ltn__secondary-color-2: #cb3421; /* Darken */
     --ltn__secondary-color-3: #fb412a; /* Lighten */
-    --ltn__heading-color: #0B1E33;
+    --ltn__heading-color:#0B1E33;
     --ltn__paragraph-color: #152E3A;
     
     --ltn__heading-font: 'Rajdhani', sans-serif;
@@ -293,6 +294,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+
     color: var(--ltn__heading-color);
     clear: both;
     font-family: var(--ltn__heading-font);

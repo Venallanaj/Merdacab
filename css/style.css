@@ -9136,6 +9136,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__feature-item-6 {
   border: 1px solid var(--border-color-8);
   margin-bottom: 30px;
+  height: 90%;
   padding: 40px 30px 35px;
   background-color: var(--white); }
   .ltn__feature-item-6::before {
@@ -10256,7 +10257,7 @@ blockquote {
     line-height: 48px;
     border: 1px solid;
     border-radius: 100%;
-    font-size: 18px; }
+    font-size: 18px; }  */
 
 /* testimonial-item-2 */
 .ltn__testimonial-item-2 {
@@ -10512,9 +10513,14 @@ blockquote {
 
 /* testimonial-item-8 */
 .ltn__testimonial-item-8 {
-  padding: 35px 35px 35px; }
+ padding: 40px 35px 35px;
+
+ height: 90%;
+
+}
   .ltn__testimonial-item-8 .ltn__testimoni-info p {
-    margin-bottom: 0; }
+    margin-bottom: 0; 
+  }
   .ltn__testimonial-item-8 .ltn__testimoni-info p + p {
     margin-top: 15px; }
 
