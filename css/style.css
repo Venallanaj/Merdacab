@@ -6144,7 +6144,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-image: url("../img/slider/2.jpg"); }
 
 /* Slide Arrow */
-.slick-slide-arrow-1 .slick-arrow {
+ .slick-slide-arrow-1 .slick-arrow {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -6162,7 +6162,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   color: var(--ltn__primary-color) !important;
   z-index: 1;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden; } 
   .slick-slide-arrow-1 .slick-arrow:hover {
     background-color: var(--ltn__secondary-color);
     border-color: var(--ltn__secondary-color);
@@ -9038,6 +9038,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     visibility: hidden;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+
+
+    
     transform: translateY(-50%); }
   .ltn__feature-item-3:hover {
     -webkit-box-shadow: var(--ltn__box-shadow-1);
@@ -10488,9 +10491,10 @@ blockquote {
       font-weight: 600;
       margin-bottom: 0; }
     .ltn__testimonial-item-7 .ltn__testimoni-info-inner .ltn__testimoni-name-designation label {
-      font-size: 14px;
+      font-size: 16px;
       margin-bottom: 0;
-      text-transform: uppercase; }
+      text-transform: capitalize; 
+    font-weight: bold;}
   .ltn__testimonial-item-7::before {
     position: absolute;
     content: "";
@@ -10509,10 +10513,10 @@ blockquote {
     opacity: 1;
     visibility: visible; }
   .ltn__testimonial-item-7:hover .ltn__testimoni-info p i {
-    color: var(--ltn__secondary-color); }
+    color: var(--ltn__secondary-color); } 
 
 /* testimonial-item-8 */
-.ltn__testimonial-item-8 {
+/* .ltn__testimonial-item-8 {
  padding: 40px 35px 35px;
 
  height: 90%;
@@ -10574,7 +10578,7 @@ blockquote {
   .ltn__testimonial-item-5 .ltn__testimonial-info p {
     font-size: 16px; }
   .ltn__testimonial-item-7 .ltn__testimoni-info p {
-    font-size: 14px; } }
+    font-size: 14px; } } */
 
 /* ----------------------------------------------------
     Banner Area ( style: 2, 3 )
@@ -11402,9 +11406,11 @@ input.cart-plus-minus-box {
   margin-bottom: 30px; }
 
 /* img-slide-item-3 */
-.ltn__img-slide-item-3 {
+ .ltn__img-slide-item-3 {
   position: relative;
-  margin-bottom: 85px; }
+  margin-bottom: 85px;
+  height: 100%;
+ }
   .ltn__img-slide-item-3 .ltn__img-slide-info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11479,7 +11485,7 @@ input.cart-plus-minus-box {
   .ltn__img-slide-item-3-2 .btn-wrapper a i {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex; } 
 
 .ltn__img-slide-item-4 {
   position: relative;
@@ -11541,7 +11547,7 @@ input.cart-plus-minus-box {
   .ltn__img-slide-item-4 .btn-wrapper .btn {
     padding: 10px 10px 8px; } }
 
-/* ----------------------------------------------------
+ ----------------------------------------------------
     Pricing List Area
 ---------------------------------------------------- */
 .ltn__pricing-plan-item {
